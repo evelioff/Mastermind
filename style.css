@@ -1,3 +1,7 @@
+body {
+  max-width: 600px;
+  margin: auto;
+}
 .line .number {
     position: relative;
     display: inline-block;
