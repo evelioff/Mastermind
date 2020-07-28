@@ -2,6 +2,11 @@ body {
   max-width: 600px;
   margin: auto;
 }
+
+li {
+  padding: 30px;
+}
+
 .line .number {
     position: relative;
     display: inline-block;
