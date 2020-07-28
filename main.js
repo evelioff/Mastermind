@@ -181,4 +181,11 @@ function Game() {
 $(document).ready(function () {
     var game = new Game();
     game.start();
+    
+    $("#empezar").click(function (e) {
+            e.preventDefault();
+            $(this).css("display: none;");
+            $('#container').css("display: inherit;");
+    });
+    
 });
