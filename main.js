@@ -185,7 +185,7 @@ $(document).ready(function () {
     $('#empezar').click(function (e) {
             e.preventDefault();
             $(this).css("display", "none");
-            $('#container').css("display", "inherit");
+            $('#container').slideDown(1000);
     });
     
 });
