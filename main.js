@@ -182,10 +182,10 @@ $(document).ready(function () {
     var game = new Game();
     game.start();
     
-    $("#empezar").click(function (e) {
+    $('#empezar').click(function (e) {
             e.preventDefault();
-            $(this).css("display: none;");
-            $('#container').css("display: inherit;");
+            $(this).css("display", "none");
+            $('#container').css("display", "inherit");
     });
     
 });
